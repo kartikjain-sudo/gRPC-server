@@ -3,7 +3,7 @@ syntax = "proto3";
 package app;
 
 service AppController {
-    rpc Accumulate (NumberArray) return (SumOfNumberArray);
+    rpc Accumulate (NumberArray) returns (SumOfNumberArray);
 }
 
 message NumberArray {
